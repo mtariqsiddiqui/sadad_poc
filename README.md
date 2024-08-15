@@ -1,16 +1,13 @@
-# sadad_poc
+# SADAD PoC using Flutter
 
-SADAD Portal revamping using Flutter and Dart.
+This is a PoC project for the SADAD Portal that uses Flutter as a front-end, and ServerPod, Dart as a backend along with Firebase, and Firestore.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Initial Attempt
+The initial attempt was using Flutter application directly connected to the Firebase and Firestore. This attempt was to build a framework on to which further whole application needs to be developed. 
+This initial attempt is considered as a failed attempt as Flutter does not support dart:mirror library and the building of Portal like framework did not proceeded further.
 
-A few resources to get you started if this is your first Flutter project:
+## Second Attempt
+The second attempt will be doing the same building a Portal like framework but with ServerPod in the middle. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter Application will talk to the ServerPod application server, and the ServerPod application server will talk to the backend databases Firestore and Firebase, or PostgreSQL database.
